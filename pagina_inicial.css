@@ -1,0 +1,457 @@
+header { 
+    background-color: skyblue;
+}
+IMG.banner {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+body{
+    background: #F0CEAD;
+}
+
+.titulo{
+    position: absolute;
+    left: 330px;
+    bottom: 270px;
+    font-family:sans-serif;
+    color:cornsilk;
+    font-size:55px;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    left: 5px;
+  background: lightblue;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  list-style:none;
+  border:1px solid #fff; 
+  
+}
+.menu li {
+  position: relative; 
+  
+  display: flex; 
+  border-right: 1px solid #fff; 
+    list-style:none;
+}
+            .menu li a{
+ background: lightblue;
+  color:#DB711A; 
+ font-family:cursive;
+  text-decoration:none; 
+  padding:7px 80px; 
+  display:block; 
+            }
+.menu li a:hover{
+  background:steelblue; 
+  color:#fff; 
+}
+.menu li  ul{
+  position:absolute;
+  top:28px; 
+  right:0px;  
+  display:none; 
+} 
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+            }
+            .menu li ul li{
+  border:1px solid #fff; 
+  display:block; 
+  width:120px; 
+}
+.um{
+    z-index:1;
+}
+.dois{
+    z-index:2;
+}
+.tres{
+    z-index:3;
+}
+.quatro{
+    z-index:4;
+}
+.cinco{
+    z-index:5;
+}
+.seis{
+    z-index:6;
+}
+.sete{
+    z-index:7;
+}
+.oito{
+    z-index:8;
+}
+.nove{
+  z-index:9;  
+}
+.dez{
+    z-index: 10;
+}
+.onze{
+    z-index: 11;
+}
+
+.clearfloat{clear:both;}
+
+.apresentacao {
+    color:steelblue;
+    font-family:cursive;
+    
+        
+}
+.apresentacao-menu {
+    font-family:cursive;
+    text-align: justify;
+    color:white;
+}
+.menu-inicial-container{
+    position:absolute;
+    top: 870px;
+    text-decoration: none;
+    left: 35px;
+    color:white;
+    font-family:cursive;
+    font-size: 20px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    width:1150px;
+    height:110px;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;   
+    
+}
+
+.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    width:1200px;
+    height:350px;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+     
+    
+}
+.flex-item{
+    width:200px;
+    height: 300px;
+      
+}
+.rodape{
+    width:auto;
+    background-color: skyblue;
+    text-align: right;
+    padding: 5px 200px;
+    font-size: 13px;
+    color: #fff;
+    padding-bottom: 15px;
+    
+    
+}
+/*-------Historia------*/
+
+.clearfloat{clear:both;}
+
+#historia-container{
+    display: flex;
+    justify-content:flex-start;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+     width:1000px;
+     height:auto;
+    margin: auto;
+    text-align: justify;
+    background: coral;
+    border-radius: 5px;
+   
+}
+
+.imagem{
+    display: flex;
+    float:left;
+    width: 140px;
+    border-style: solid;
+    border-color:bisque;
+}
+.gatolendo{
+    display: flex;
+    float:right;
+    width: 350px;
+    border-style: solid;
+    border-color:bisque;
+}
+
+#historia-container h1{
+    display: flex;
+    font-size: auto;
+    color:#fff;
+    font-family: cursive;
+    
+}
+#historia-container p{
+    display: flex;
+    margin-left: 10px;
+    font-family:arial;
+    color:darkred;
+    
+}
+    
+    
+
+/*-------Historia------*/
+/*-------Raça------*/
+.flex-raca{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+     width:900px;
+    margin: 0 auto;
+    height:650px;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    background: coral;
+    border-radius: 5px;
+    
+}
+#tipo-raca{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-family: cursive;
+}
+
+.modeloraca{
+     display: -webkit-flex;
+    display: flex;
+     -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+     width:700px;
+    margin: 0 auto;
+    height:auto;
+    background: #3C89A3;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+.todaraca{
+    display: flex;
+    float:right;
+    width: auto;
+    height: 300px;
+    border-style: solid;
+    border-color:#EDA477;
+}
+.modeloraca h1{
+    display: flex;
+    font-size: 36px;
+    color:#EDA477;
+    font-family: cursive;
+}
+.modeloraca p{
+    display: flex;
+    margin-left: 10px;
+    font-family:arial;
+    color:#fff;
+}
+    
+/*-------Raça------*/
+/*-------Cuidados------*/
+.clearfloat{clear:both;}
+#cuidados{
+     display: -webkit-flex;
+    display: flex;
+    justify-content:flex-start;
+    -webkit-justify-content:;
+    align-items:flex-start ;
+    -webkit-align-items: flex-start;
+     width:1000px;
+    margin:auto;
+    height:auto;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    background: coral;
+    border-radius: 5px;
+    
+}
+.acessorio{
+    display: flex;
+    float:right;
+    width: 250px;
+    border-style: solid;
+    border-color:bisque;
+}
+#cuidados h1{
+    
+    color:white;
+    font-family: cursive; 
+}
+#cuidados b{
+    
+    text-decoration: underline;
+    color:steelblue;
+    font-size:15px;
+}
+#cuidados p{
+    
+    font-family:arial;
+    color:darkred;
+    text-align: justify;
+    margin: 10px;
+}
+/*-------Cuidados------*/
+/*-------Curiosidades------*/
+#comportamento{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items:flex-start ;
+    -webkit-justify-content:flex-start;
+    justify-content:flex-start;
+     width:900px;
+    margin: 10px auto;
+    height:auto;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    background: coral;
+    border-radius: 5px;
+    padding: 0px 10px 5px 10px;
+}
+#mito-lenda{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items:flex-start ;
+    -webkit-justify-content:flex-start;
+    justify-content:flex-start;
+     width:900px;
+    margin: 10px auto;
+    height:auto;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    background: #D982A0;
+    border-radius: 5px;
+    padding: 0px 10px 5px 10px;
+}
+
+#extra{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items:flex-start ;
+    -webkit-justify-content:flex-start;
+    justify-content:flex-start;
+     width:900px;
+    margin: 10px auto;
+    height:auto;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    background: lightcoral;
+    border-radius: 5px;
+    padding: 0px 10px 5px 10px;
+    
+}
+#curiosidades h1{
+    display: flex;
+    font-size: 30px auto;
+    color:#fff;
+    font-family: cursive;
+    text-align: justify;
+}
+#curiosidades h3{
+    display: flex;
+    font-size: 24px auto;
+    color:#fff;
+    font-family: cursive;
+    text-align: justify;
+}
+#curiosidades p{
+    display: flex;
+    font-family:arial;
+    color:darkred;
+    text-align: justify;
+    margin: 0px;
+}
+#curiosidades li{
+    font-family:arial;
+    color:#C41262;
+}
+/*-------Curiosidades------*/
+/*-------Adote------*/
+#adote{
+      display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items:flex-start ;
+    -webkit-justify-content:flex-start;
+    justify-content:flex-start;
+     width:900px;
+    margin: 0px auto;
+    height:auto;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    background: coral;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+}
+#adote h1{
+    display: flex;
+    font-size: 30px auto;
+    color:#fff;
+    font-family: cursive;
+    text-align: justify;
+}
+#adote p{
+    display: flex;
+    font-family:arial;
+    color:darkred;
+    text-align: justify;
+    margin: 0px;
+}
+#adote a{
+    text-decoration: none;
+    background-color: lightyellow;
+    border-style: solid;
+    border-color: crimson;
+    color:grey;
+    padding: 2px 5px 10px 5px;
+}
+/*-------Adote------*/
+/*-------Formulario------*/
+#formulario{
+     display: flex;
+    justify-content:center;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    align-items: center;
+     width:400px ;
+     height:auto;
+    margin: auto;
+    text-align: justify;
+    background: #D4A190;
+    border-radius: 5px;
+}
+/*-------Formulario------*/
